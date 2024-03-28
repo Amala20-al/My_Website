@@ -16,6 +16,15 @@
         p::first-line{
             color: darkred;
         }
+         h2::after{
+            content: "*******";
+            color: chocolate;
+        }
+        h2::before{
+            content: "*******";
+            color: chocolate;
+        }
+        
     
 
 
@@ -54,6 +63,61 @@
          <marquee bgcolor="blue" height="40%" width="50%" direction="right" behavior="slide" scrollamount="500" scrolldelay="5000" loop="50">
             <span style="color: blue;">Intern at Technologics Global</span>
         </marquee>
+          <h2>Fill your details here to know more about Career Oppurtunities in IT Field</h2>
+        <form>
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email"><br><br>
+        
+            
+            <label for="phno">Phone No.:</label>
+            <input type="tel" id="phno" placeholder="Enter your phone no." value="+91" maxlength="13"><br><br>
+        
+            
+            <label for="pw">Password:</label>
+            <input type="password" id="pw" placeholder="Enter your password" maxlength="8"><br><br>
+        
+            
+            <label for="datetime-local">Date of Birth:</label>
+            <input type="datetime-local" id="datetime-local" placeholder="Enter your DOB"><br><br>
+        
+            
+            <label>Skills:</label>
+            <input type="range" placeholder="Enter your skill"><br><br>
+        <fieldset>
+            <legend align="center">Gender</legend>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend align="center">Courses You Interested</legend>
+            <input type="checkbox">Java<br>
+            <input type="checkbox">SQL<br>
+            <input type="checkbox">HTML<br>
+            <input type="checkbox">Python<br>
+            <input type="checkbox">Flutter<br>
+            <input type="checkbox">C/C++<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend align="center">Enter your resume</legend>
+            <input type="file"><br>
+        
+            
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+            </form>
+            <h3 style="background-color:lightgray; color:red;" align="center">Just Sit Back and Relax
+                &#x2665;<h3>
+              
+                    <audio controls>
+                        <source src="Audio.mp3">
+                       </audio>
         
       </div>
     </section>
